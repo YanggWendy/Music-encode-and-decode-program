@@ -1,5 +1,8 @@
 # Music-encode-and-decode-program
 
+# Introduction
+A music encode and decode project was to code a program that could encode some content (text based) in an audio file. The modified audio file would then be played over the phone and the program on users’ laptop has to achieve 100% accuracy in decoding it.
+
 # Parameter list:
 |  Name   | Amount  |
 |  ----  | ----  |
@@ -10,7 +13,7 @@
 | Start period  | 0.15s |
 | End period  | 0.15s |
 
-# Algorithm introduction:
+# Algorithm:
 For encode part, I used a MATLAB map to assign each character with one frequency(See the table above). And then I generate encode music using [proj_encode.m](https://github.com/YanggWendy/Music-encode-and-decode-program/blob/main/proj_encode.m). After that, I use low pass filter to delete the high frequency in source music and replace it with my encode music. After getting the combined music in [combine_music.m](https://github.com/YanggWendy/Music-encode-and-decode-program/blob/main/combine_music.m), I start to decode the message.
 
 ## During encoding
