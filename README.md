@@ -1,6 +1,8 @@
 # Music-encode-and-decode-program
 
 # Parameter list:
+|  Name   | Amount  |
+|  ----  | ----  |
 | Freq_Step  | 100 Hz |
 | Start_freq  | 9000 Hz |
 | End_freq  | 8900 Hz |
